@@ -1,1 +1,481 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"compan",
+				"company_department"
+			],
+			[
+				"date",
+				"conversion_date"
+			],
+			[
+				"forme",
+				"formers_churches"
+			],
+			[
+				"christian_maturity_course_",
+				"christian_maturity_course_why"
+			],
+			[
+				"matur",
+				"christian_maturity_course"
+			],
+			[
+				"former",
+				"formers_departments"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"user",
+				"userVerify"
+			],
+			[
+				"pre",
+				"pre-formatted"
+			],
+			[
+				"select",
+				"select2"
+			],
+			[
+				"get",
+				"getClients"
+			],
+			[
+				"cLIENT",
+				"ClientForm"
+			],
+			[
+				"client",
+				"client_id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/gabrieldias/Workspace/revel/page/modal.page.php",
+		"/home/gabrieldias/Workspace/revel/index.php",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/assets/styles/sftp-config.json",
+		"/home/gabrieldias/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/gabrieldias/Workspace/illusion/app-atos/.gitignore",
+		"/home/gabrieldias/Workspace/revel/.gitignore",
+		"/home/gabrieldias/Workspace/revel/README.md",
+		"/home/gabrieldias/Workspace/revel/sftp-config.json",
+		"/home/gabrieldias/Workspace/revel/google94f9f08e9737e747.html",
+		"/home/gabrieldias/Workspace/revel/sitemap.xml",
+		"/home/gabrieldias/Workspace/curriculo/curriculo_ingles.html",
+		"/home/gabrieldias/Workspace/curriculo/curriculo.html",
+		"/home/gabrieldias/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/gabrieldias/Área de Trabalho/comunicado.txt",
+		"/home/gabrieldias/Workspace/illusion/atos/database/seeds/UserTableSeeder.php",
+		"/etc/profile",
+		"/home/gabrieldias/Workspace/illusion/atos/app/Member.php",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/views/member/Form.vue",
+		"/home/gabrieldias/Workspace/illusion/atos/app/People.php",
+		"/home/gabrieldias/Workspace/illusion/atos/app/Http/Controllers/MemberController.php",
+		"/home/gabrieldias/Workspace/illusion/atos/app/Http/Requests/MemberRequest.php",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/views/Home.vue",
+		"/home/gabrieldias/Workspace/illusion/app-atos/node_modules/eslint/lib/rules/lines-between-class-members.js",
+		"/home/gabrieldias/Workspace/illusion/atos/app/Http/Requests/PeopleRequest.php",
+		"/home/gabrieldias/Workspace/illusion/atos/app/Http/Controllers/GroupController.php",
+		"/home/gabrieldias/Workspace/illusion/atos/routes/api.php",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/components/layout/SideBar.vue",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/components/layout/TopBar.vue",
+		"/tmp/fz3temp-2/RegisterController.php",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/views/member/Form_.vue",
+		"/tmp/fz3temp-2/HomeController.php",
+		"/tmp/fz3temp-2/MemberController.php",
+		"/etc/init.d/nginx",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/views/Login.vue",
+		"/home/gabrieldias/Workspace/illusion/atos/.env",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/router.js",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/views/member/List.vue",
+		"/home/gabrieldias/Workspace/illusion/atos/app/Http/Controllers/UserController.php",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/plugins/axios.js",
+		"/home/gabrieldias/Workspace/illusion/app-atos/src/plugins/datatables.config.js",
+		"/home/gabrieldias/Workspace/sites/default.conf",
+		"/home/gabrieldias/Workspace/laradock/docker-compose.yml",
+		"/home/gabrieldias/Workspace/illusion/app-atos/public/manifest.json",
+		"/home/gabrieldias/Workspace/illusion/app-atos/package.json",
+		"/etc/hosts",
+		"/tmp/fz3temp-2/.htaccess",
+		"/home/gabrieldias/Workspace/laradock/nginx/sites/atos.conf",
+		"/home/gabrieldias/Workspace/laradock/workspace/Dockerfile",
+		"/home/gabrieldias/Workspace/laradock/mysql/Dockerfile",
+		"/home/gabrieldias/Workspace/illusion/app-atos/README.md",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/views/production-order/Print.vue",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/views/production-order/PrintContent.vue",
+		"/tmp/fz3temp-2/scripts.blade.php",
+		"/tmp/fz3temp-2/app.blade.php",
+		"/tmp/fz3temp-2/main.js",
+		"/tmp/fz3temp-2/app.js",
+		"/tmp/fz3temp-2/app 2.js",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/views/production-order/Form.vue",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/views/production-order/List.vue",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/main.js",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/plugins/axios.js",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/components/layout/Loading.vue",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/components/layout/SideBar.vue",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/views/production-order/ClientForm.vue",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/assets/styles/_style.scss",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/assets/js/scripts.js",
+		"/media/gabrieldias/bc87c6da-cefd-4b92-8d40-01c8cbe1eaf3/gabrieldias/BACKUP/BACKUP - GABRIEL/new-certificate/index.html",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/views/Login.vue",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/src/plugins/datatables.config.js",
+		"/tmp/fz3temp-2/.env",
+		"/tmp/fz3temp-2/.env 2",
+		"/home/gabrieldias/Workspace/illusion/app-production-order/package.json",
+		"/home/gabrieldias/Workspace/illusion/production-order/.env",
+		"/home/gabrieldias/Workspace/teste/index.php",
+		"/home/gabrieldias/application/docker/mysql/config/config-file.cnf",
+		"/home/gabrieldias/Workspace/laradock/.env",
+		"/var/run/mysqld/mysqld.sock",
+		"/home/gabrieldias/Workspace/laradock/mysql/my.cnf",
+		"/home/gabrieldias/application/docker-compose.yml",
+		"/home/gabrieldias/application/docker/Dockerfile",
+		"/etc/nginx/sites-available/production-order.local",
+		"/var/www/html/illusion/production-order/.env",
+		"/etc/php/7.2/cli/php.ini",
+		"/home/gabrieldias/Workspace/laradock/nginx/sites/production_order.conf",
+		"/etc/nginx/sites-available/default",
+		"/etc/host",
+		"/usr/share/nginx/html/index.html",
+		"/etc/nginx/nginx.conf",
+		"/etc/nginx/sites-available/example.com",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/sylius/vendor/sylius/sylius/travis/appveyor/parameters.test.yml",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/src/ApiBundle/KlinkApi/Handlers/ApiCategoriesHandler.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/sylius/vendor/sylius/sylius/src/Sylius/Bundle/TaxonomyBundle/Resources/views/Taxonomy/_index.html.twig",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/src/AppBundle/Resources/public/scripts/models/store.js",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/src/ApiBundle/KlinkApi/Handlers/ApiProductHandler.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/src/AppBundle/Controller/BrowseController.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/src/AppBundle/Controller/CategoryController.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/src/ApiBundle/Controller/CategoryController.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/app/config/config.yml",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/sylius/vendor/sylius/sylius/src/Sylius/Component/Taxonomy/Model/Taxonomy.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/sylius/web/app.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/web/app_prod.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/sylius/vendor/sylius/sylius/src/Sylius/Bundle/TaxonomyBundle/Controller/TaxonController.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/web/app.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/docker-compose.yml",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/.env",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/src/AppBundle/Controller/HomepageController.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/controller/web/app.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/controller/app/config/parameters.yml",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/user/app/config/parameters.yml",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/routing/app/config/parameters.yml",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/sylius/app/config/parameters.yml",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/store/app/config/parameters.yml",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/controller/app/config/parameters.yml.dist",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/sylius/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/sylius/vendor/ruflin/elastica/lib/Elastica/Connection.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/docker/mysql/config/config-file.cnf",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/sylius/app.php",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/sylius/app/bootstrap.php.cache",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/docker/php/xdebug.ini",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/docker/nginx/config/nginx.conf",
+		"/home/gabrieldias/Documentos/testedocker/Dockerfile",
+		"/home/gabrieldias/Documentos/testedocker/src/index.php",
+		"/home/gabrieldias/application/store/Makefile",
+		"/etc/nginx/conf.d/default.conf",
+		"/var/log/nginx/error.log",
+		"/home/gabrieldias/Documentos/Concepta/dev/grapestars/docker/Dockerfile",
+		"/usr/local/etc/nginx/nginx.conf",
+		"/usr/local/etc/nginx"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/home/gabrieldias/Workspace/illusion/app-atos"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"ignored",
+			"ignore",
+			"5+",
+			"company_department",
+			"father",
+			"scho",
+			"childre",
+			"data.member_info",
+			"configSelect",
+			"christian_maturity_course_why",
+			"has_department",
+			"formers_churches",
+			" for=\"\"",
+			" name=\"\"",
+			"company_phone",
+			"select",
+			" class=\"col-md-3 col-form-label text-md-right\">",
+			"compan",
+			") ",
+			"Client",
+			"Cliente",
+			"client",
+			"Client",
+			"Clientes",
+			"client",
+			"illusion",
+			"illusion os",
+			"illusion_os",
+			"illusion-os",
+			"page_preloader",
+			"face",
+			"getProductionOrder",
+			"getClients",
+			"DATA_",
+			"DATA_SAVE_PATH",
+			"MYSQL_VERSION",
+			"ip",
+			"mysql"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"data.member",
+			"",
+			">",
+			"",
+			"Member",
+			"Membro",
+			"member",
+			"Member",
+			"Membros",
+			"member"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 64.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "",
+	"project": "docker-compose.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Member",
+				"atos/app/Http/Requests/MemberRequest.php"
+			],
+			[
+				"Members",
+				"app-atos/node_modules/eslint/lib/rules/lines-between-class-members.js"
+			],
+			[
+				"People",
+				"atos/app/People.php"
+			],
+			[
+				"UserSeed",
+				"atos/database/seeds/UserTableSeeder.php"
+			],
+			[
+				"Peop",
+				"atos/app/People.php"
+			],
+			[
+				"layout vue",
+				"app-atos/src/components/layout/TopBar.vue"
+			],
+			[
+				"BrowseController",
+				"store/src/AppBundle/Controller/BrowseController.php"
+			],
+			[
+				"CategoryController",
+				"store/src/AppBundle/Controller/CategoryController.php"
+			],
+			[
+				"Taxon",
+				"sylius/vendor/sylius/sylius/src/Sylius/Component/Taxonomy/Model/Taxonomy.php"
+			],
+			[
+				"TaxonC",
+				"sylius/vendor/sylius/sylius/src/Sylius/Bundle/TaxonomyBundle/Controller/TaxonController.php"
+			],
+			[
+				"HomePage",
+				"store/src/AppBundle/Controller/HomepageController.php"
+			],
+			[
+				"parameters",
+				"store/app/config/parameters.yml"
+			],
+			[
+				"param",
+				"user/app/config/parameters.yml"
+			],
+			[
+				"parameters.yml",
+				"routing/app/config/parameters.yml"
+			],
+			[
+				"Connection",
+				"sylius/vendor/ruflin/elastica/lib/Elastica/Connection.php"
+			],
+			[
+				"PDOCOnn",
+				"sylius/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -14,5 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	// $file = "storage/xml/people.xml";
+	// $xml = simplexml_load_file($file);
+
+	// return response()->Json($xml);
+	// $xml = simplexml_load_string($string);
+
+	// $json = json_encode($xml);
+
+	// $array = json_decode($json,TRUE);
+
+	// return [$json, $array];
+	return view('welcome');
 });
+
+Route::resource('document', 'DocumentController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
