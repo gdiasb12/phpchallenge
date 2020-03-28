@@ -56,17 +56,9 @@ class DocumentController extends Controller
     			'filename' => $fileName
     		]);
 
-    		$msg = [
-    			'title' => 'Sucesso!',
-    			'text' => 'Document uploaded!',
-    			'icon' => 'success'
-    		];
+    		$msg = ['title' => 'Sucesso!', 'text' => 'Document uploaded!', 'icon' => 'success'];
     	}else{
-    		$msg = [
-    			'title' => 'Ops!',
-    			'text' => 'Erro on upload the file!',
-    			'icon' => 'error'
-    		];
+    		$msg = ['title' => 'Ops!', 'text' => 'Erro on upload the file!', 'icon' => 'error'];
     	}
     	return redirect('/home')->with('message', $msg);
     }
