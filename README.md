@@ -42,7 +42,7 @@ The next command will generate a new key to the .env file:
 php artisan key:generate
 ```
 
-To generate the migrations for the database use
+To generate the migrations for the database, use
 ```
 php artisan migrate
 ```
