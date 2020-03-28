@@ -49,7 +49,7 @@ php artisan migrate
 
 **Important**: to setup laravel storage permission
 ```
-chmod -R 775 storage/
+chmod -R 777 storage/
 ```
 
 The command below creates a symbolic link to access the stored files 
