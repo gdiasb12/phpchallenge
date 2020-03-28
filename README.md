@@ -47,14 +47,14 @@ To generate the migrations for the database, use
 php artisan migrate
 ```
 
-**Important**: to setup laravel storage permission
-```
-chmod -R 777 storage/
-```
-
 The command below creates a symbolic link to access the stored files 
 ```
 php artisan storage:link
+```
+
+**IMPORTANT**: to setup laravel storage permission
+```
+chmod -R 777 storage/
 ```
 
 ### Testing it
