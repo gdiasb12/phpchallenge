@@ -7,12 +7,13 @@ use App\Document;
 
 class DocumentController extends Controller
 {
-    //
+    //Brigs all Documents
 	public function index()
 	{
-		return Document::all();
+		return Document::latest()->get();
 	} 
-	//
+
+	//Show the Document based on the ID  
 	public function show(Document $document)
 	{
 		try {
@@ -29,21 +30,23 @@ class DocumentController extends Controller
 			return response()->Json('Ops! Error on open file.');			
 		}
 	}
-    //
+
+    //Save Document file and Create a new record 
 	public function store()
 	{
-
 		$file = request()->file('xmlfile');
+
+		//Use the time to set a new name to the file 
 		$fileName = time().'_'.$file->getClientOriginalName();
 		
+		//Move the file to a storage folder
 		if ($file->storeAs('public/xml', $fileName)) {
 
-
+			//Create a new record 
 			$document = Document::create([
 				'filename' => $fileName
 			]);
-			// $xml = simplexml_load_file($document->path_file);
-			// return $file;	
+
 			$msg = [
 				'title' => 'Sucesso!',
 				'text' => 'Document uploaded!',
@@ -59,6 +62,7 @@ class DocumentController extends Controller
 		return redirect('/home')->with('message', $msg);
 	}
 
+	//Delete the record and unlink the file as well
 	public function destroy(Document $document)
 	{
 		$document->delete();

@@ -28,7 +28,8 @@ Route::get('/', function () {
 	return view('welcome');
 });
 
-Route::resource('document', 'DocumentController');
 Auth::routes();
+
+Route::resource('document', 'DocumentController');
 
 Route::get('/home', 'HomeController@index')->name('home');

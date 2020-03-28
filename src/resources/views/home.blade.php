@@ -10,17 +10,17 @@
           <form method="post" action="{{ route('document.store') }}" enctype="multipart/form-data">
            @csrf
            <div class="row m-b-1">
-            <div class="col-sm-6 offset-sm-3">
-              <button type="button" class="btn btn-primary btn-block" onclick="document.getElementById('xmlfile').click()">Select the XML Document</button>
+            <div class="col">
+              {{-- <button type="button" class="btn btn-primary btn-block" onclick="document.getElementById('xmlfile').click()">Select the XML Document</button> --}}
               <div class="form-group inputDnD">
                 <label class="sr-only" for="xmlfile">Select the XML Document</label>
-                <input type="file" class="form-control-file text-primary font-weight-bold" required="required" name="xmlfile" id="xmlfile" accept="text/xml" onchange="readUrl(this)" data-title="Drag and drop a file"/>
+                <input type="file" class="form-control-file text-primary font-weight-bold" required="required" name="xmlfile" id="xmlfile" accept="text/xml" onchange="readUrl(this)" data-title="Drag and Drop a XML file"/>
 
               </div>
             </div>
           </div>
           <hr>
-          <input type="submit" class="btn btn-primary" value="Upload the file!" />
+          <input type="submit" class="btn btn-primary" value="Upload it!" />
         </form>
       </div>
       <div class="card-body">
@@ -42,7 +42,7 @@
               <td>{{ $document->filename }}</td>
               <td class="text-center">
                 <div class="btn-group btn-group-sm" role="group" aria-label="Actions">
-                  <a class="btn btn-primary" target="_blank" href="{{ route('document.show', $document->id) }}">
+                  <a class="btn btn-primary" target="_blank" href="{{ $document->link }}">
                     View
                   </a>
 
@@ -67,16 +67,6 @@
 </form>
 @endsection
 <script>
-  function isXml(input)
-  {
-    var value = input.value;
-    var res = value.substr(value.lastIndexOf('.')) == '.xml';
-    if (!res) {
-      input.value = "";
-    }
-    return res;
-  }
-
   function destroyDocument(el)
   {
     var route = el.getAttribute('data-route');   
@@ -85,14 +75,19 @@
     form.submit();
   }
   function readUrl(input) {
+    var value = input.value;
+    var res = value.substr(value.lastIndexOf('.')) == '.xml';
+    if (!res) {
+      input.value = "";
+      return res;
+    }
 
     if (input.files && input.files[0]) {
       let reader = new FileReader();
       reader.onload = (e) => {
-        let imgData = e.target.result;
-        let imgName = input.files[0].name;
-        input.setAttribute("data-title", imgName);
-        console.log(e.target.result);
+        let xmlData = e.target.result;
+        let xmlName = input.files[0].name;
+        input.setAttribute("data-title", xmlName);
       }
       reader.readAsDataURL(input.files[0]);
     }
