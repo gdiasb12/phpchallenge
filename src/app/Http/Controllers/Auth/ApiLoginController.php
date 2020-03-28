@@ -30,7 +30,7 @@ class ApiLoginController extends Controller
         if (!$user || !Hash::check($request->password, $user->password)) {
             return response([
                 'message' => ['These credentials do not match our records.']
-            ], 404);
+            ], 401);
         }
 
         $token = $user->createToken('document-app-token')->plainTextToken;

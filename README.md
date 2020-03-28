@@ -70,6 +70,11 @@ You can access the application at:
 ```
 127.0.0.1:8888
 ```
+
+## API Documentation
+
+https://documenter.getpostman.com/view/5376210/SzYW3zz5?version=latest
+
 ## Built With
 
 * [Laravel](https://laravel.com/) - The laravel framework used 

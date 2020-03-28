@@ -10,7 +10,7 @@ class Document extends Model
 
 	public $fillable = ['filename'];
 
-	public $appends = ['link'];
+	public $appends = ['link', 'link_api'];
 
 	protected static function boot()
 	{
@@ -20,6 +20,11 @@ class Document extends Model
 			unlink($document->path_file);
 		});
 
+	}
+	
+	public function getLinkApiAttribute()
+	{
+		return url('api/document/'.$this->id);
 	}
 	
 	public function getLinkAttribute()

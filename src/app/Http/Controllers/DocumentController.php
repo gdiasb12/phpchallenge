@@ -20,7 +20,7 @@ class DocumentController extends Controller
     //Brigs all Documents
     public function index()
     {
-    	return Document::latest()->get();
+        return response()->json(Document::latest()->get());
     } 
 
 	//Show the Document based on the ID  
