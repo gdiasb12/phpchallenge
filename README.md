@@ -56,6 +56,7 @@ php artisan storage:link
 ```
 chmod -R 777 storage/
 ```
+If there is any error related to the storage folder, repeat the command above.
 
 ### Testing it
 
