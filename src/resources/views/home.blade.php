@@ -11,9 +11,9 @@
            @csrf
            <div class="row m-b-1">
             <div class="col">
-              {{-- <button type="button" class="btn btn-primary btn-block" onclick="document.getElementById('xmlfile').click()">Select the XML Document</button> --}}
               <div class="form-group inputDnD">
                 <label class="sr-only" for="xmlfile">Select the XML Document</label>
+                <button type="button" class="btn btn-primary btn-block" onclick="document.getElementById('xmlfile').click()">Select the XML Document</button>
                 <input type="file" class="form-control-file text-primary font-weight-bold" required="required" name="xmlfile" id="xmlfile" accept="text/xml" onchange="readUrl(this)" data-title="Drag and Drop a XML file"/>
 
               </div>
